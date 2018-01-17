@@ -34,7 +34,7 @@ PACKAGES
     gtk+-3.0
 )
 
-add_executable(${EXEC_NAME} $VALA_C})
+add_executable(${EXEC_NAME} ${VALA_C})
 
 install (TARGETS ${EXEC_NAME} RUNTIME DESTINATION bin)
 
